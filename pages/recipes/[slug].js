@@ -45,7 +45,6 @@ export default function RecipeDetails({ recipe }) {
     ingredients,
     method,
   } = recipe.fields
-  console.log(recipe)
   return (
     <div>
       <div className='banner'>
